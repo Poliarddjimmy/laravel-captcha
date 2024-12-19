@@ -1,7 +1,8 @@
 {
     "name": "djimmy/laravel-captcha",
     "description": "A simple Laravel package for generating CAPTCHA images.",
-    "type": "library",
+    "type": "package",
+    "keywords": ["laravel Captcha", "laravel Security", "laravel Captcha", "laravel Security", "Captcha"],
     "license": "MIT",
     "authors": [
         {
@@ -24,5 +25,6 @@
                 "Djimmy\\Captcha\\CaptchaServiceProvider"
             ]
         }
-    }
+    },
+	"minimum-stability": "stable"
 }
