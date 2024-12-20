@@ -1,6 +1,6 @@
 <?php
 
-namespace Djimmy\Captcha;
+namespace Djimmy\Captcha\Services;
 
 use Illuminate\Support\Facades\Session;
 
