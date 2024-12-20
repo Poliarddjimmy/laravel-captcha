@@ -2,7 +2,7 @@
 
 namespace Djimmy\Captcha\Http\Controllers;
 
-use Djimmy\Captcha\CaptchaService;
+use Djimmy\Captcha\Services\CaptchaService;
 use Illuminate\Support\Facades\Session;
 
 class CaptchaController extends Controller
