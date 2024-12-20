@@ -23,6 +23,16 @@ class CaptchaServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../assets/fonts' => $this->getPublicPath('assets/fonts'),
         ], 'captcha-assets');
+        
+        // Publish controller
+        $this->publishes([
+            __DIR__ . '/Controllers/CaptchaController.php' => app_path('Http/Controllers/CaptchaController.php'),
+        ], 'captcha-controller');
+
+        // Publish routes
+        $this->publishes([
+            __DIR__ . '/routes/web.php' => base_path('routes/captcha.php'),
+        ], 'captcha-routes');
     }
 
     private function getPublicPath(string $path = '')
