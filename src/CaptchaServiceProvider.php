@@ -26,7 +26,7 @@ class CaptchaServiceProvider extends ServiceProvider
         
         // Publish controller
         $this->publishes([
-            __DIR__ . '/Controllers/CaptchaController.php' => app_path('Http/Controllers/CaptchaController.php'),
+            __DIR__ . '/Http/Controllers/CaptchaController.php' => app_path('Http/Controllers/CaptchaController.php'),
         ], 'captcha-controller');
 
         // Publish routes
